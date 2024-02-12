@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>itProfit</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<script src="https://kit.fontawesome.com/6116fc2ee6.js" crossorigin="anonymous"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+		integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"
+		integrity="sha512-/6TZODGjYL7M8qb7P6SflJB/nTGE79ed1RfJk3dfm/Ib6JwCT4+tOfrrseEHhxkIhwG8jCl+io6eaiWLS/UX1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#1a1a1a">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#1a1a1a">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#1a1a1a">
+</head>
+
+<body>
+	
+	<div class="container">		
+		<div class="wrapper">
+		  <div class="info">
+			<button href="#" id="open_pop_up">Открыть модальное окно</button>
+		  </div>
+		</div>
+		<div id="pop_up" class="pop_up">
+			<div class="pop_up_container">
+			<div class="pop_up_body">
+				 <div class="info">
+					<form id="form" action="/">
+						<div class="input-control">
+							<label for="username">Имя</label>
+							<input id="username" name="username" type="text">
+							<div class="error"></div>
+						</div>
+						<div class="input-control">
+							<label for="email">Почта</label>
+							<input id="email" name="email" type="text">
+							<div class="error"></div>
+						</div>
+						<div class="input-control">
+							<label for="phone">Телефон</label>
+							<input id="phone" name="phone" type="tel" placeholder="+375(__)___-__-__">
+							<div class="error"></div>
+						</div>
+						<div class="input-control">
+							<label for="message">Сообщение</label>
+							<input id="message" name="message" type="text">
+							<div class="error"></div>
+						</div>
+						<button type="submit">Отправить данные</button>
+					</form>
+				</div>
+			 <div id="pop_up_close" class="pop_up_close">&#10006</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	<script src="https://unpkg.com/imask"></script>
+</body>
+
+</html>
